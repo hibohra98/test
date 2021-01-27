@@ -31,6 +31,4 @@ jobs:
       uses: azure/manage-azure-policy@v0
       with:
         paths: |
-          definitions/policies/nsg-diag-eh_31adaa0e-2f0b-44a2-b0dc-daa88b57a8df/**
-          definitions/policies/keyvault-diag-eh_89aff399-6621-42d8-8dd2-e8ff849848de/**
-          definitions/policies/storage-account-diag-eh_31adaa0e-2f0b-44a2-b0dc-daa88b57a8d8/**
+          definitions/policies/**
