@@ -130,6 +130,7 @@
       "metadata": {
         "displayName": "Setting name",
         "description": "Name of the policy for the diagnostics settings."
+        
       },
       "defaultValue": "setByPolicyEvtHub"
     },
@@ -145,14 +146,16 @@
       "type": "String",
       "metadata": {
         "displayName": "Event Hub Name",
-        "description": "Specify the name of the Event Hub"
+        "description": "Specify the name of the Event Hub",
+        "strongType": "EventHubName"
       }
     },
     "eventHubAuthorizationRuleId": {
       "type": "String",
       "metadata": {
         "displayName": "Event Hub Authorization Rule Id",
-        "description": "Specify Event Hub Authorization Rule Id"
+        "description": "Specify Event Hub Authorization Rule Id",
+        "strongType": "eventHubID"
       }
     }
   }
