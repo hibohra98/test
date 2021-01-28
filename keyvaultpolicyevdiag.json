@@ -151,14 +151,16 @@
       "type": "String",
       "metadata": {
         "displayName": "Event Hub Name",
-        "description": "Specify the name of the Event Hub"
+        "description": "Specify the name of the Event Hub",
+        "strongType": "eventhubname"
       }
     },
     "eventHubAuthorizationRuleId": {
       "type": "String",
       "metadata": {
         "displayName": "Event Hub Authorization Rule Id",
-        "description": "Specify Event Hub Authorization Rule Id"
+        "description": "Specify Event Hub Authorization Rule Id",
+        "strongType": "eventhubID"
       }
     }
   }
